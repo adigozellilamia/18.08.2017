@@ -1,0 +1,40 @@
+.cities{
+ 
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+border: 1px solid #ccc;
+background-color: #f1f1f1;
+ 
+ 
+}
+.cities li{
+float: left;
+}
+.cities li a{
+display: inline-block;
+text-decoration: none;
+text-align: center;
+color: black;
+font-size:18px;
+padding: 15px 16px;
+}
+.active{ background-color: #ccc;
+}
+ 
+ 
+.text{
+display: none;
+}
+.text.active{
+display: block;
+}
+.cities li:hover{
+background-color: #e7e7e7;
+transition: 0.3s;
+}
+.cities li:hover .active{
+background-color: #e7e7e7;
+transition: 0.3s;
+}
